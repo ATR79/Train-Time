@@ -1,0 +1,21 @@
+html, body {
+    background-size: 100%;
+    position: static;
+}
+
+.container {
+    outline-style: inset;
+}
+
+#head {
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+}
+
+#lead {
+    font-family: 'Slabo 27px', serif;
+}
+
+.table {
+    font-weight: bolder;
+}

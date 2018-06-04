@@ -1,21 +1,36 @@
 html, body {
     background-size: 100%;
     position: static;
-}
-
-.container {
-    outline-style: inset;
-}
-
-#head {
     font-family: 'Slabo 27px', serif;
-    font-weight: bold;
-}
-
-#lead {
-    font-family: 'Slabo 27px', serif;
-}
-
-.table {
     font-weight: bolder;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg {
+
+}
+
+.container2 {
+    font-weight: bolder;
+}
+
+#trainName {
+    background-color: transparent;
+    border-color: black;
+}
+
+#Destination {
+    background-color: transparent;
+    border-color: black;
+}
+
+#trainTime {
+    background-color: transparent;
+    border-color: black;
+}
+
+#Frequency {
+    background-color: transparent;
+    border-color: black;
 }

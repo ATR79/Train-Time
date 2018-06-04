@@ -13,7 +13,7 @@
 </head>
 
 <body background="assets/images/background.jpg">
-        <div class="container border">
+        <div class="container border"><br>
             <h1 id="head" class="text-center">The train to your next destination will be along soon.</h1>
             <p class="lead text-center">Oh the things you will find if you don't stay behind...</p>
         </div>
@@ -25,23 +25,31 @@
                     <h2>Current Train Schedule</h2>
                 </tr>
                 <tr>
-                    <td>Train Time</td>
-                    <td>Destination</td>
-                    <td>Frequency(min)</td>
-                    <td>Next Arrival</td>
-                    <td>Minutes Away</td>
+                    <th>Train Time</th>
+                    <th>Destination</th>
+                    <th>Frequency(min)</th>
+                    <th>Next Arrival</th>
+                    <th>Minutes Away</th>
                 </tr>
             </table>
         </div>
 
-        <div class="col-lg-6 border">
+        <div class="container2 col-lg-6 border">
             <h2>Add Train</h2>
-        </div>
-            <form role="form">
-                <div class="form-group row">
-                    
+                <br>
+                <div class="form-group" style="width:90%">
+                    <form>
+                        <label for>Train Name</label><br>
+                        <input class="form-control" type="text" id="trainName"><br><br>
+                        <label for>Destination</label><br>
+                        <input class="form-control" type="text" id="Destination"><br><br>
+                        <label for>First Train Time</label><br>
+                        <input class="form-control" type="text" id="trainTime"><br><br>
+                        <label for>Frequency</label><br>
+                        <input class="form-control" type="text" id="Frequency"><br>
+                        <input type="submit" value="Submit" id="submit">
+                    </form><br>
                 </div>
-            </form>
         </div>
     </div>
 </body>

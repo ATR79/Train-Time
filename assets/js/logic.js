@@ -49,6 +49,7 @@ $(document).ready(function () {
         var remainder = moment().diff(moment.unix(trainTime), "minutes") % frequency;
         var minutes = frequency - remainder;
         var arrival = moment().add(minutes, "m").format("hh:mm A");
+        var trainTimeFormat = moment().format("hh:mm A");
 
         // console.log(remainder);
         // console.log(minutes);
@@ -58,7 +59,7 @@ $(document).ready(function () {
         var newRow = $('<tr>');
         newRow.append($('<td>').html(trainName));
         newRow.append($('<td>').html(destination));
-        newRow.append($('<td>').html(trainTime));
+        newRow.append($('<td>').html(trainTimeFormat));
         newRow.append($('<td>').html(frequency));
         newRow.append($('<td>').html(arrival));
         newRow.append($('<td>').html(minutes));
